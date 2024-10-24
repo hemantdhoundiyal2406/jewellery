@@ -1,0 +1,247 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  
+  font-style: normal;
+}
+
+p, li{
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.shipping{
+  background-color: blueviolet;
+}
+/* Explore More */
+
+.whatsapp-icon {
+  
+  position: fixed; 
+  bottom: 20px; 
+  right: 20px; 
+  z-index: 1000; 
+  cursor: pointer; 
+}
+
+.whatsapp-icon:hover {
+  transform: scale(1.1); /* Optional hover effect */
+  transition: transform 0.2s ease;
+}
+
+
+.card {
+  transition: border 0.6s ease, transform 0.6s ease;
+  border: none;
+  overflow: hidden;
+  padding: 10px;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+}
+
+
+
+.card-img-top {
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+}
+  .card:hover {
+ 
+      border: 1px solid black; 
+    }
+
+.card img.hover-img {
+  display: none; 
+}
+
+.card-body{
+  line-height: 5px;
+}
+
+
+.card:hover img.default-img {
+  display: none; 
+}
+
+.card:hover img.hover-img {
+  display: block;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+}
+
+.btn{
+  display: none; 
+}
+
+.card:hover .btn {
+  display: block; 
+}
+
+@media (max-width: 767px) {
+  .card {
+    border: 1px solid black;
+  }
+
+  .card img.hover-img {
+    display: block; 
+  }
+  .card img.default-img {
+    display: none; 
+  }
+}
+
+/* Explore More end */
+
+
+
+@media only screen and (max-width: 600px) {
+  .zodiac-lg{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .zodiac-sm{
+    display: none;
+  }
+}
+
+
+/* Ananya Panday in Outhouse */
+
+/* .Outhouse{
+  line-height: 20px;
+}
+
+.Ananya-card{
+  line-height: 20px;
+} */
+
+.custom-underline {
+  text-decoration: underline;
+  text-underline-offset: 5px; /* Adjust this value as needed */
+}
+
+
+.mb-2{
+  line-height: 10px;
+}
+
+@media (min-width: 1200px){
+  .carousel{
+    display: none;
+  }
+
+  .slider-card1{
+    display: block;
+  }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+  .mb-2{
+    line-height: 20px;
+  }
+  .carousel{
+    display: none;
+  }
+
+  .slider-card1{
+    display: block;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px){
+  .card-body {
+    line-height: 20px;
+  }
+
+  .slider-card1{
+    display: block;
+  }
+
+  .carousel{
+    display: none ;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){
+  
+   .carousel{
+    display: block ;
+  }
+
+  .slider-card{
+    display: none;
+  }
+} 
+
+@media (max-width: 575.98px){
+  .slider-card{
+    display: none;
+  }
+}
+
+/* /* End * */
+
+
+
+/* Footer */
+.footer{
+  background-color: black;
+}
+
+.copy-right{
+  background-color: blueviolet;
+  color: var(--white)
+}
+
+li {
+  list-style: none; 
+  position: relative; 
+}
+
+li::before {
+  content: "🡆"; 
+  position: absolute;
+  left: -20px; 
+  color: white;; 
+}
+
+
+li a{
+  text-decoration: none;
+
+}
+
+
+
+.footer-text{
+  color: whitesmoke;
+  margin-left: 10px;
+}
+
+
+ul li a {
+  color: white;
+
+  font-weight:500;
+}
+
+.call-ad{
+  color: red;
+ 
+  font-weight:500;
+  margin-left: 10px;
+  
+}
+
